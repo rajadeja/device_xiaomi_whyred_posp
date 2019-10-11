@@ -278,3 +278,9 @@ endif
 
 # inherit from the proprietary version
 -include vendor/xiaomi/whyred/BoardConfigVendor.mk
+
+#TempHAX
+BUILD_BROKEN_DUP_RULES := true
+BUILD_BROKEN_PHONY_TARGETS := true
+TARGET_USES_HARDWARE_QCOM_GPS := false
+
